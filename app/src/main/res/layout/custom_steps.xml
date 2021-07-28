@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="start"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen_10">
+
+   <!-- <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/lin_step1_deactive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <ImageView
+                android:layout_width="@dimen/dimen_30"
+                android:layout_height="@dimen/dimen_30"
+                android:src="@drawable/ic_status_circle_fill" />
+
+            <View
+                android:layout_width="4dp"
+                android:layout_height="@dimen/dimen_40"
+                android:layout_gravity="center"
+                android:background="@drawable/shape_dashed_line_drawable" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lin_step1_active"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="@dimen/dimen_30"
+                android:layout_height="@dimen/dimen_30"
+                android:src="@drawable/ic_status_circle_fill" />
+
+            <View
+                android:layout_width="4dp"
+                android:layout_height="@dimen/dimen_40"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_40"
+            android:text="@string/order_placed"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/dimen_10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/lin_step2_deactive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <ImageView
+                android:layout_width="@dimen/dimen_30"
+                android:layout_height="@dimen/dimen_30"
+                android:src="@drawable/ic_status_circle_fill" />
+
+            <View
+                android:layout_width="4dp"
+                android:layout_height="@dimen/dimen_40"
+                android:layout_gravity="center"
+                android:background="@color/text_light" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lin_step2_active"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="@dimen/dimen_30"
+                android:layout_height="@dimen/dimen_30"
+                android:src="@drawable/ic_status_circle_fill" />
+
+            <View
+                android:layout_width="4dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_40"
+            android:text="@string/driver_assigned"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/dimen_10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/lin_step3_deactive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <ImageView
+                android:layout_width="@dimen/dimen_30"
+                android:layout_height="@dimen/dimen_30"
+                android:src="@drawable/ic_status_circle_fill" />
+
+            <View
+                android:layout_width="4dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@color/text_light" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lin_step3_active"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="@dimen/dimen_30"
+                android:layout_height="@dimen/dimen_30"
+                android:src="@drawable/ic_status_circle_fill" />
+
+            <View
+                android:layout_width="4dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_40"
+            android:text="@string/on_the_way"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/dimen_10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/lin_step4_deactive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="visible">
+
+            <ImageView
+                android:layout_width="@dimen/dimen_30"
+                android:layout_height="@dimen/dimen_30"
+                android:src="@drawable/ic_status_circle_fill" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lin_step4_active"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="@dimen/dimen_40"
+                android:layout_height="@dimen/dimen_40"
+                android:src="@drawable/ic_status_circle_fill" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_40"
+            android:text="@string/order_completed"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/dimen_10" />
+    </LinearLayout>-->
+</LinearLayout>

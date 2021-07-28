@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityDummy"
+    android:orientation="vertical">
+
+    <LinearLayout android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:background="@color/darkbluecolour"
+        android:padding = "15dp"
+        android:orientation="horizontal"
+        android:id="@+id/mainlayout"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@mipmap/backwhite"
+            android:id="@+id/img_back"
+            android:background="?attr/selectableItemBackground"
+            />
+
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:text="Grievances Details"
+            android:singleLine="true"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Grievance Detail"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/lightgray"
+                android:layout_marginTop="10dp"
+                ></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Reference No."
+                            android:textColor="@color/darkbluecolour"
+                            android:textSize="16dp"
+                            />
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="-"
+                            android:textColor="@color/black"
+                            android:textSize="16dp"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Date"
+                            android:textColor="@color/darkbluecolour"
+                            android:textSize="16dp"
+                            />
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="-"
+                            android:textColor="@color/black"
+                            android:textSize="16dp"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Type of Grievance"
+                    android:textColor="@color/darkbluecolour"
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Seniority"
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Description"
+                    android:textColor="@color/darkbluecolour"
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Iorem"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    />
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Grievance Sent to"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/lightgray"
+                android:layout_marginTop="10dp"
+                ></LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Department"
+                            android:textColor="@color/darkbluecolour"
+                            android:textSize="16dp"
+                            />
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Personnel"
+                            android:textColor="@color/black"
+                            android:textSize="16dp"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Section"
+                            android:textColor="@color/darkbluecolour"
+                            android:textSize="16dp"
+                            />
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Personnel IPAS Cell"
+                            android:textColor="@color/black"
+                            android:textSize="16dp"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Incharge of Section"
+                    android:textColor="@color/darkbluecolour"
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Current Status of Grievance"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/lightgray"
+            android:layout_marginTop="10dp"
+            ></LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp">
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pending / Retured / Reply"
+                android:textColor="@color/darkbluecolour"
+                android:textSize="16dp"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Complainer Information"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/lightgray"
+                android:layout_marginTop="10dp"
+                ></LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="PFNO"
+                            android:textColor="@color/darkbluecolour"
+                            android:textSize="16dp"
+                            />
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="-"
+                            android:textColor="@color/black"
+                            android:textSize="16dp"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Name"
+                            android:textColor="@color/darkbluecolour"
+                            android:textSize="16dp"
+                            />
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="-"
+                            android:textColor="@color/black"
+                            android:textSize="16dp"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Designation"
+                    android:textColor="@color/darkbluecolour"
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Department"
+                        android:textColor="@color/darkbluecolour"
+                        android:textSize="16dp"
+                        />
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="-"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Station"
+                        android:textColor="@color/darkbluecolour"
+                        android:textSize="16dp"
+                        />
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Seniority"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Office Address"
+                android:textColor="@color/darkbluecolour"
+                android:textSize="16dp"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="test1"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Residential Address"
+                android:textColor="@color/darkbluecolour"
+                android:textSize="16dp"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="test1"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pincode"
+                android:textColor="@color/darkbluecolour"
+                android:textSize="16dp"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="452000"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mobile Number"
+                android:textColor="@color/darkbluecolour"
+                android:textSize="16dp"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:layout_marginBottom="10dp"
+                />
+
+
+        </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

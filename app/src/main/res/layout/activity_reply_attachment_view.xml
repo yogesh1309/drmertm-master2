@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityReplyAttachmentView"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <LinearLayout android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:background="@color/darkbluecolour"
+        android:padding = "15dp"
+        android:orientation="horizontal"
+        android:id="@+id/mainlayout"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@mipmap/backwhite"
+            android:id="@+id/img_back"
+            android:background="?attr/selectableItemBackground"
+            />
+
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:text="Grievances Detail"
+            android:singleLine="true"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/img_reply"
+        android:scaleType="fitXY"
+        android:visibility="gone"
+        ></ImageView>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/wv_reply"
+        android:visibility="gone"
+        ></WebView>
+</LinearLayout>

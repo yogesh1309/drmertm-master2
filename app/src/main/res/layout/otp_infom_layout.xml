@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="245dp"
+        android:layout_height="60dp"
+        android:background="@drawable/bg_pinktopradius"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/info_new_img"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:padding="20dp">
+
+
+        <EditText
+            android:textSize="14dp"
+            android:backgroundTint="@color/lightgray"
+            android:hint="@string/enter_otp"
+            android:id="@+id/edit_otp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:inputType="number"
+            android:textColorHint="@color/black"
+            android:imeOptions="actionNext"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:textSize="14dp"
+            android:id="@+id/edit_otp_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:backgroundTint="@color/lightgray"
+            android:hint="@string/new_password"
+            android:inputType="textPassword"
+            android:textColorHint="@color/black"
+            android:imeOptions="actionNext"
+            android:textColor="@color/black"
+            />
+        <EditText
+            android:textSize="14dp"
+            android:id="@+id/edit_otp_pass_conf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:backgroundTint="@color/lightgray"
+            android:hint="Confirm password"
+            android:inputType="textPassword"
+            android:textColorHint="@color/black"
+            android:imeOptions="actionDone"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyt_action"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:gravity="center"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnsubmitOTP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_roundredbtn"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Ok"
+            android:textColor="@color/white" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btncancelOTP"
+            android:background="@drawable/bg_roundredbtn"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Cancel"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+</LinearLayout>

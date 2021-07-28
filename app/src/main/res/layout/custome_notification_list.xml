@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/lightgray_btn"
+    android:layout_marginTop="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+    >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grievance Information"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="50">
+                <TextView
+                    android:gravity="start"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Grievance Unique No."
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:layout_weight="1"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="50">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_griunino"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:gravity="end"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="50">
+                <TextView
+                    android:gravity="start"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Grievance Type"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:layout_weight="1"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="50">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_gritype"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:gravity="end"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="50">
+                <TextView
+                    android:gravity="start"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Department"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:layout_weight="1"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="50">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_dept"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:gravity="end"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="50">
+                <TextView
+                    android:gravity="start"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Section"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:layout_weight="1"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="50">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_section"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:gravity="end"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="50">
+                <TextView
+                    android:gravity="start"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Status"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:layout_weight="1"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="50">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_status"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:gravity="end"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:background="@drawable/darkblue_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_viewdetails"
+                    android:text="View Details"
+                    android:textSize="16dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/layout_withdrawal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:background="@drawable/darkblue_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_withdrawal"
+                    android:text="Withdrawal"
+                    android:textSize="16dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--change only the package name if you have change the package name of app-->
+    <external-path name="my_images" path="." />
+
+</paths>

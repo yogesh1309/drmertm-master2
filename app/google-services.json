@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "257421318046",
+    "firebase_url": "https://drmertm-37978.firebaseio.com",
+    "project_id": "drmertm-37978",
+    "storage_bucket": "drmertm-37978.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:257421318046:android:6f52d950f5361ddc7e688f",
+        "android_client_info": {
+          "package_name": "com.drmertm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "257421318046-t6o12b875n76pkgaebd6vfipuh8kr1ha.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.drmertm",
+            "certificate_hash": "b55a64f83ffc728e439ff374aa4bba766dfe5ef3"
+          }
+        },
+        {
+          "client_id": "257421318046-pkjmki6aipbumsl0il97h39unuam4h40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFKXMAGL2jq2_V-Lz2iQQU1WpYXG4Ipew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "257421318046-pkjmki6aipbumsl0il97h39unuam4h40.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

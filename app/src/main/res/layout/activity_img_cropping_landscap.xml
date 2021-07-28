@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mainlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkbluecolour"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@mipmap/backwhite"
+            android:id="@+id/img_back"
+            android:background="?attr/selectableItemBackground" />
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:visibility="gone"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@mipmap/backwhite"
+            android:background="?attr/selectableItemBackground" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_below="@id/mainlayout"
+        android:id="@+id/top_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <com.fenchtose.nocropper.CropperView
+            android:background="#ff282828"
+            android:id="@+id/imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            app:nocropper__grid_opacity="0.8"
+            app:nocropper__grid_thickness="0.8dp"
+            app:nocropper__add_padding_to_make_square="false"
+            app:nocropper__grid_color="@color/colorAccent"
+            app:nocropper__fit_to_center="true"/>
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/snap_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="16dp"
+            android:padding="8dp"
+            android:layout_gravity="left|bottom"
+            android:background="@drawable/black_transp_circ_ripple"
+            android:scaleType="center"
+            android:src="@mipmap/ic_crop_free_white_24dp"/>
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/rotate_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="8dp"
+            android:layout_margin="16dp"
+            android:layout_gravity="right|bottom"
+            android:background="@drawable/black_transp_circ_ripple"
+            android:scaleType="center"
+            android:src="@mipmap/ic_rotate_right_white_24dp"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginRight="48dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="Upload Image"
+                android:id="@+id/image_button"/>
+
+            <Button
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="Crop"
+                android:id="@+id/crop_button"/>
+        </LinearLayout>
+
+
+        <CheckBox
+            android:visibility="gone"
+            android:id="@+id/gesture_checkbox"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Allow Gesture"/>
+
+        <CheckBox
+            android:visibility="gone"
+            android:id="@+id/original_checkbox"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Crop original image"/>
+
+        <CheckBox
+            android:visibility="gone"
+            android:id="@+id/crop_checkbox"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Crop Async"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

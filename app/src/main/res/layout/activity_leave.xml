@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:background="@color/darkbluecolour"
+        android:padding = "15dp"
+        android:orientation="horizontal"
+        android:id="@+id/mainlayout"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@mipmap/backwhite"
+            android:id="@+id/img_back"
+            android:background="?attr/selectableItemBackground"
+            />
+
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:text="Leave Section"
+            android:singleLine="true"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:paddingTop="10dp">
+        <LinearLayout
+            android:id="@+id/layout_applea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/txt_applea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apply for Leave"
+                android:textColor="@color/darkbluecolour"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/line_applea"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/darkbluecolour"></LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout_mylearep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/txt_myglearep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="My Leave Report"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/line_mylearep"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/lightgray"></LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/contentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>

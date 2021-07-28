@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/darkbluecolour"
+    android:padding="10dp"
+    android:gravity="center_vertical">
+
+
+        <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/drawicon"
+                            android:layout_gravity="center_vertical"
+                            android:background="@android:color/transparent"
+                            android:id="@+id/action_menu"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+
+                </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/logo3"
+                    android:layout_gravity="center">
+
+                </ImageView>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="RATLAM DIVISION (WR)"
+                            android:textColor="@color/greentext"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            ></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Welcomes You on Centralized"
+                            android:textColor="@color/greentext"
+                            android:textSize="12dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            ></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="e-Samadhan\ne-समाधान"
+                            android:textColor="@color/greentext"
+                            android:textSize="16dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            ></TextView>
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/logodrmertm"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY">
+
+                </ImageView>
+                <ImageView
+                    android:visibility="gone"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/logo2"
+                    android:layout_gravity="center">
+
+                </ImageView>
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

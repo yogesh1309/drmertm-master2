@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="220dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/new_buton_rounded">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_pinktopradius"
+        android:gravity="center"
+        android:minHeight="80dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/info_new_img"
+            android:tint="@android:color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:id="@+id/radioGroup">
+            <RadioButton
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Issue Date (Latest)"
+                android:id="@+id/radioissdate"
+                android:layout_gravity="center_horizontal"
+                android:checked="true"
+                android:textSize="16dp"
+                />
+            <RadioButton
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Head (A to Z)"
+                android:id="@+id/radiohead"
+                android:layout_gravity="center_horizontal"
+                android:checked="false"
+                android:textSize="16dp" />
+
+            <RadioButton
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Department (A to Z)"
+                android:id="@+id/radiodept"
+                android:layout_gravity="center_horizontal"
+                android:checked="false"
+                android:textSize="16dp" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyt_action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_roundredbtn"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Ok"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+    </LinearLayout>

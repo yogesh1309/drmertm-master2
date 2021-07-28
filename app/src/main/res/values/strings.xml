@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">e-Samadhan</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="i_don_t_have_account">I don\'t have account</string>
+    <string name="register">Register?</string>
+    <string name="login">Login</string>
+    <string name="i_have_account">I have account</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="new_password">New password</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="service_record">Service Record</string>
+    <string name="confidential_report">Confidential Report</string>
+    <string name="form">Form 16</string>
+    <string name="grievance">Grievance</string>
+    <string name="my_grievance">My grievance</string>
+    <string name="grievance_apply">Grievance Apply</string>
+    <string name="reset">Reset</string>
+    <string name="submit">Submit</string>
+    <string name="department">Department</string>
+    <string name="section">Section</string>
+    <string name="type_og_grievance">Type of Grievance</string>
+    <string name="description">Description</string>
+    <string name="do_you_want_to_attach_document">Do you want to attach document</string>
+    <string name="yes">Yes</string>
+    <string name="no_internet">No internet connection.</string>
+
+    <string name="no">No</string>
+    <string name="city">City</string>
+    <string name="s_no">S.No.</string>
+    <string name="station">Station</string>
+    <string name="pin_code">Pin Code</string>
+    <string name="state">State</string>
+    <string name="descriptions">Descriptions</string>
+    <string name="leave_apply">Leave Apply</string>
+    <string name="reason">Reason</string>
+    <string name="address">Address</string>
+    <string name="otp">OTP</string>
+    <string name="select_authority">Select Authority</string>
+    <string name="do_you_want_headquarter">Do you want Headquarter</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="end_date">End Date</string>
+    <string name="applicant">Applicant</string>
+    <string name="view">View</string>
+    <string name="select_department">Select Department</string>
+    <string name="search">Search</string>
+    <string name="today_on_leave">Today on leave</string>
+    <string name="summary_leave">Summary Leave</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="openFolder">Open Downloaded Folder</string>
+    <string name="downloadStarted">Download Started…</string>
+    <string name="downloadCompleted">Download Completed…</string>
+    <string name="downloadFailed">Download Failed…</string>
+    <string name="downloadAgain">Download Again</string>
+    <string name="quarter_road_no">Quarter &amp; Road No. <font color='red'>*</font>\n रेलवे आवास एवम सड़क नंबर <font color='red'>*</font></string>
+    <string name="grievance_pertaining_department_n">Grievance Pertaining Department <font color='red'>*</font>\nविभाग जिस से शिकायत सम्बंधित है  <font color='red'>*</font></string>
+    <string name="type_of_grievance_n">Type of Grievance <font color='red'>*</font>\nशिकायत का प्रकार <font color='red'>*</font></string>
+    <string name="railway_quarter_city_n">Railway Quarter City <font color='red'>*</font>\nरेलवे आवास शहर <font color='red'>*</font></string>
+    <string name="railway_colony_n">Railway Colony <font color='red'>*</font>\nरेलवे कॉलोनी <font color='red'>*</font></string>
+    <string name="grievance_description_n">Grievance Description <font color='red'>*</font>\nशिकायत का विवरण <font color='red'>*</font></string>
+    <string name="do_you_want_to_attach_document_n">Do you want to attach document <font color='red'>*</font>\nक्या आप दस्तावेज़ संलग्न करना चाहते हैं <font color='red'>*</font></string>
+    <string name="state_n">State <font color='red'>*</font>\nराज्य <font color='red'>*</font></string>
+    <string name="city_n">City <font color='red'>*</font>\nशहर <font color='red'>*</font></string>
+    <string name="current_posting_office_n">Current Posting Office <font color='red'>*</font>\nवर्तमान पदस्थापना कार्यालय <font color='red'>*</font></string>
+    <string name="posting_station_s_code_n">Posting Station\'s Code <font color='red'>*</font>\nपदस्थापित स्टेशन का कोड <font color='red'>*</font></string>
+    <string name="reply">Reply</string>
+    <string name="attachment">Attachment</string>
+    <string name="next">Next</string>
+    <string name="edit">Edit</string>
+    <string name="saveasdraft">Save as draft</string>
+    <string name="view_download_id_card">View/Download Id Card</string>
+    <string name="rejected_reason">Rejected Reason - </string>
+    <string name="hight_in_inches_amp_feet"><![CDATA[Height उँचाई]]><font color='red'>*</font></string>
+    <string name="complexion">Complexion रंग<font color='red'>*</font></string>
+    <string name="identification_mark">Identification Marks पहचान चिन्‍ह<font color='red'>*</font></string>
+    <string name="employee_image_for_id_card_only_jpg">Upload Photo (JPEG) अपलोड फोटो<font color='red'>*</font></string>
+    <string name="employee_sign_image_only_jpg">Upload Sign (JPEG) अपलोड हस्‍ताक्षर<font color='red'>*</font></string>
+    <string name="umid_railway_id_card_with_photo_and_sign_jpg_pdf">Old Railway ID Proof रेलवे आईडी प्रमाण
+Any one (UMID Card/ Medical Diary/Railway Authority letter (Having Photo &amp; Signature) <font color='red'>*</font></string>
+    <string name="id_card_status">Id card status</string>
+
+
+    <string-array name="selectheight">
+        <item>Select Height</item>
+
+        <item>4 feet   0 inches</item>
+        <item> 4 feet   1 inches</item>
+        <item>  4 feet   2 inches</item>
+        <item>   4 feet   3 inches</item>
+        <item>  4 feet 4 inches</item>
+        <item> 4 feet 5 inches </item>
+        <item> 4 feet 6 inches</item>
+        <item>4 feet 7 inches</item>
+        <item>4 feet 8 inches</item>
+        <item>4 feet 9 inches</item>
+        <item>4 feet 10 inches</item>
+        <item> 4 feet 11 inches</item>
+        <item>5 feet 0 inches</item>
+        <item>5 feet 1 inches</item>
+        <item> 5 feet 2 inches</item>
+        <item> 5 feet 3 inches</item>
+        <item>5 feet 4 inches</item>
+        <item>5 feet 5 inches</item>
+        <item>5 feet 6 inches</item>
+        <item>5 feet 7 inches</item>
+        <item>5 feet 8 inches</item>
+        <item>5 feet 9 inches</item>
+        <item>5 feet 10 inches</item>
+        <item>5 feet 11 inches</item>
+        <item>6 feet 0 inches</item>
+        <item>6 feet 1 inches</item>
+        <item>6 feet 2 inches</item>
+        <item>6 feet 3 inches</item>
+        <item>6 feet 4 inches</item>
+        <item>6 feet 5 inches</item>
+        <item>6 feet 6 inches</item>
+        <item>6 feet 7 inches</item>
+        <item>6 feet 8 inches</item>
+
+
+    </string-array>
+
+    <!--<string-array name="selectcomplexion">
+        <item>Select Complexion</item>
+        <item>Very fair</item>
+        <item>Fair skin</item>
+        <item>Medium</item>
+        <item>Dark skin</item>
+        <item>Medium dark skin</item>
+        <item>Very dark</item>
+    </string-array>-->
+    <string-array name="selectcomplexion">
+        <item>Select Complexion</item>
+        <item>Fair</item>
+        <item>Medium</item>
+        <item>Dark</item>
+    </string-array>
+
+</resources>
